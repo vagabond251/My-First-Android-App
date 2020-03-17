@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- In this file I added a background color and changed it from the default color of white. I also edited the colors of the button -->
+
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="buttonBackground">#BBDEFB</color>
+    <color name="screenBackground">#2196F3</color>
+</resources>

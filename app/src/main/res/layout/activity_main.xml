@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--In this file I changed the layout from constrained to limited and added appropriate margin values to align each item the way I wanted it to display.
+I created a header, and a button that displays a textview message when clicked -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for a Message"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="60pt"
+        android:layout_marginTop="10pt"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:text="Click Me"
+        android:layout_marginLeft="67pt"
+        android:layout_marginTop="10pt"
+        />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70pt"
+        android:layout_marginTop="85pt"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt" />
+
+</LinearLayout>
